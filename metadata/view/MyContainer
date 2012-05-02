@@ -1,0 +1,54 @@
+{
+    "id": "ExtBox1-ext-gen2280",
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "MyContainer"
+    },
+    "customConfigs": [],
+    "designerId": "c03e9510-a96a-4e88-b127-9a1bb4b528b4",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen2616",
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "mybutton",
+                "text": "MyButton",
+                "designer|userClassName": "MyButton"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen3087",
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onMybuttonTap",
+                        "implHandler": "Ext.Viewport.setActiveItem(Ext.getCmp('sampleview'));",
+                        "name": "tap",
+                        "designer|userClassName": "onMybuttonTap"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        }
+    ]
+}

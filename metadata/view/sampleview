@@ -1,0 +1,37 @@
+{
+    "id": "ExtBox1-ext-gen2434",
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": null,
+        "id": "sampleview",
+        "itemId": "sampleview",
+        "designer|userClassName": "sampleview",
+        "designer|userAlias": "sampleview"
+    },
+    "customConfigs": [],
+    "designerId": "f936bb00-6016-490b-99bc-cfb1f38bc1fe",
+    "$viewOrder": 1,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen2819",
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "designer|userClassName": "MyToolbar"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}
